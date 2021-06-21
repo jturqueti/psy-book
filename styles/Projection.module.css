@@ -1,0 +1,55 @@
+.container {
+  padding: 0 0.5rem;
+  min-height: calc(100vh - 90px - 40px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imgprojection {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.imglivre {
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  margin: 0 25%;
+}
+
+.section {
+  max-width: 80vh;
+}
+
+.sectionimg {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta {
+  margin: 3%;
+  padding: 12px 22px;
+  background-color: #ffa65d;
+  color: white;
+  font-family: "Playfair Display", serif;
+  border-radius: 4%;
+  font-size: 1.2em;
+}
+
+.cta:hover {
+  background-color: #ffd8cc;
+  color: black;
+}
+
+.sectionfin {
+  margin-bottom: 20%;
+}
