@@ -10,9 +10,16 @@ export default function Layout({ children }) {
     <>
       <header className={styles.header}>
         <nav className={styles.navbar}>
+          <span className={styles.logobox}>
           <Link href="/">
-            <a className={styles.navlogo}>[BrandLogo]</a>
+          <img
+          className={styles.logo}
+              src="logo.png"
+              alt="logo-aubourg-trotobas"
+            />
           </Link>
+          <p className={styles.sitename}>Aubourg & Trotobas</p>
+          </span>
 
           <ul
             className={

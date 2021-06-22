@@ -1,7 +1,15 @@
 import styles from "../styles/Projection.module.css";
+import Head from 'next/head'
 
 export default function projection() {
   return (
+    <>
+    <Head>
+        <title>Film Aubourg & Trotobas</title>
+        <meta name="description" content="Les trois dimensions de l'espace psychique, entretien filmé avec Cléopâtre Athanassiou Popesco, par Patricia Trotobas, Frédérick Aubourg." />
+        <link rel="icon" href="/logo.png" />
+      </Head>
+
     <div className={styles.container}>
 
       <div className={styles.section} >
@@ -36,5 +44,6 @@ export default function projection() {
         <p>Le film est disponible sur le site de Vimeo en 2 parties.</p>
       </div>
     </div>
+    </>
   );
 }

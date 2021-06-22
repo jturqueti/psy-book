@@ -26,6 +26,22 @@
     background-color: #222222;
 }
 
+.logo{
+    height: 50px;
+}
+
+.logobox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sitename{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em; 
+    margin: 0 15px;
+}
+
 .navmenu {
     display: flex;
     justify-content: space-between;

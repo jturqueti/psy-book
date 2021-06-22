@@ -1,8 +1,18 @@
 import styles from "../styles/Projection.module.css";
+import Head from 'next/head'
+
 
 export default function Livre() {
   return (
-    <div className={styles.container}>
+    <>
+<Head>
+        <title>Livre Aubourg & Trotobas</title>
+        <meta name="description" content="L'accueil au risque de la psychanalyse, un livre de Frédérick Aubourg et Patricia Trotobas." />
+        <link rel="icon" href="/logo.png" />
+      </Head>
+    
+    <main className={styles.container}>
+      
       <div className={styles.section}>
         <div className={styles.sectionimg}>
           <a href="https://vimeo.com/361043019" target="_blank">
@@ -30,6 +40,7 @@ export default function Livre() {
         Il y aura bientôt quarante ans, Françoise Dolto créait la Maison verte. Mêlant prévention et socialisation, éducation et psychanalyse, la pratique de l accueil des jeunes enfants et de leurs parents se situe à la croisée de divers champs de savoirs et de pratiques. Partant de cette observation, les auteurs de cet ouvrage souhaitent montrer combien est nécessaire la référence à la psychanalyse dans l exercice de l accueil. Conçu comme une boîte à outils théoriques pour penser l accueil, ce livre a pour ambition de rendre possible 'l'humanisation de la petite enfance'.
         </p>
       </div>
-    </div>
+    </main>
+    </>
   );
 }
